@@ -1,5 +1,4 @@
 # SGFParser
-----
 
 This is an simple SGF(Smart Game Format) parser written in Java.
 SGFParser can parse all SGF text which confirm to SGF standard.

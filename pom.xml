@@ -21,6 +21,12 @@
         <url>https://github.com/takumi-n/SimpleSGFParser.git</url>
     </scm>
     
+    <developers>
+        <developer>
+            <name>takumi-n</name>
+        </developer>
+    </developers>
+    
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
