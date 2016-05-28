@@ -5,6 +5,22 @@
     <artifactId>SimpleSGFParser</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+    <name>SimpleSGFParser</name>
+    <description>Simple SGF Parser for Java</description>
+    <url>https://github.com/takumi-n/SimpleSGFParser</url>
+    
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    
+    <scm>
+        <url>https://github.com/takumi-n/SimpleSGFParser.git</url>
+    </scm>
+    
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
