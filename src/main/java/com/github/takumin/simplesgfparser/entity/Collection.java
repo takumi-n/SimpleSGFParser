@@ -18,6 +18,11 @@ public class Collection {
         trees = new ArrayList<>();
     }
 
+    /**
+     * Adds GameTree to Collection.
+     * 
+     * @param tree 
+     */
     public void addGameTree(GameTree tree) {
         trees.add(tree);
     }

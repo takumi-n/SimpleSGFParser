@@ -17,6 +17,11 @@ public class Sequence {
         nodes = new ArrayList<>();
     }
 
+    /**
+     * Adds Node to Sequence
+     * 
+     * @param node 
+     */
     public void addNode(Node node) {
         nodes.add(node);
     }

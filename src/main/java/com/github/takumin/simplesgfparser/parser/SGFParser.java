@@ -16,7 +16,6 @@ import java.util.regex.Pattern;
  * @author takumi
  */
 public class SGFParser {
-
     private String sgf;
     private Collection collection;
 
@@ -26,14 +25,31 @@ public class SGFParser {
         parse();
     }
 
+    /**
+     * Gets the first GameTree.
+     * Equals to #getgameTree(0)
+     * 
+     * @return GameTree
+     */
     public GameTree getSingleGameTree() {
         return getGameTree(0);
     }
 
+    /**
+     * Gets the tree indicated by index.
+     * 
+     * @param index
+     * @return GameTree
+     */
     public GameTree getGameTree(int index) {
         return collection.getTrees().get(index);
     }
 
+    /**
+     * Gets the count of GameTrees that collection has.
+     * 
+     * @return count
+     */
     public int getGameTreeCount() {
         return collection.getTrees().size();
     }
@@ -111,7 +127,6 @@ public class SGFParser {
         return result;
     }
 
-    //AP[1]KM[4]TM[40]
     private Node parseNode(String rawNode) {
         Node result = new Node();
         String regex1 = "[A-Z]+?\\[.+?\\]";
