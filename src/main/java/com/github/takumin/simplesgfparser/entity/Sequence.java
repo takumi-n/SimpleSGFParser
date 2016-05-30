@@ -18,9 +18,9 @@ public class Sequence {
     }
 
     /**
-     * Adds Node to Sequence
+     * Appends the specified GameTree to this sequence.
      * 
-     * @param node 
+     * @param node node to be appended to this sequence
      */
     public void addNode(Node node) {
         nodes.add(node);

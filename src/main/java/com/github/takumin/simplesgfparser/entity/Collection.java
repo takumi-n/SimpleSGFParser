@@ -19,9 +19,9 @@ public class Collection {
     }
 
     /**
-     * Adds GameTree to Collection.
+     * Appends the specified GameTree to this collection.
      * 
-     * @param tree 
+     * @param tree GameTree to be appended to this collection
      */
     public void addGameTree(GameTree tree) {
         trees.add(tree);

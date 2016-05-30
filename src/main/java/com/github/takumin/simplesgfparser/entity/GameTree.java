@@ -20,8 +20,8 @@ public class GameTree {
     }
 
     /**
-     * Gets the metadata of GameTree.
-     * Equals to get the first node.
+     * Returns the metadata Node of this tree.
+     * This method is equals to #getSequence.getNodes.get(0).
      * 
      * @return Metadata Node
      */
@@ -30,18 +30,18 @@ public class GameTree {
     }
 
     /**
-     * Adds GameTree to GameTree
+     * Appends the specified GameTree to this collection.
      * 
-     * @param tree 
+     * @param tree GameTree to be appended to this collection
      */
     public void addGameTree(GameTree tree) {
         trees.add(tree);
     }
 
     /**
-     * Sets Sequence to GameTree.
+     * Sets the specified Sequence to this tree.
      * 
-     * @param sequence 
+     * @param sequence sequence to be set to this tree
      */
     public void setSequence(Sequence sequence) {
         this.sequence = sequence;

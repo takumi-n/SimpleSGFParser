@@ -2,7 +2,7 @@
 package com.github.takumin.simplesgfparser.exception;
 
 /**
- * Exception for SGF parse
+ * Thrown to indicate that it fails to parse
  * @author takumi
  */
 public class SGFParseError extends Error {

@@ -11,7 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Parse SGF string
+ * Parser for SGF(Smart Game Format)
  *
  * @author takumi
  */
@@ -26,8 +26,8 @@ public class SGFParser {
     }
 
     /**
-     * Gets the first GameTree.
-     * Equals to #getgameTree(0)
+     * Returns the first GameTree in the Collection.
+     * This method is equals to #getGameTree(0)
      * 
      * @return GameTree
      */
@@ -36,9 +36,9 @@ public class SGFParser {
     }
 
     /**
-     * Gets the tree indicated by index.
+     * Returns the GameTree at the specified position in the Collection.
      * 
-     * @param index
+     * @param index index of the tree to return
      * @return GameTree
      */
     public GameTree getGameTree(int index) {
@@ -46,7 +46,7 @@ public class SGFParser {
     }
 
     /**
-     * Gets the count of GameTrees that collection has.
+     * Returns the number of GameTrees in the Collection
      * 
      * @return count
      */
