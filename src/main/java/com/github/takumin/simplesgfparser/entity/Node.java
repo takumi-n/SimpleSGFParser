@@ -20,7 +20,7 @@ public class Node {
         properties.put(propIdent, propValue);
     }
 
-    public Object get(String propIdent) {
+    public String get(String propIdent) {
         return properties.get(propIdent);
     }
 }
