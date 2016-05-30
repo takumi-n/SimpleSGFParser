@@ -1,7 +1,7 @@
-# SGFParser
+# SimpleSGFParser
 
 This is an simple SGF(Smart Game Format) parser written in Java.
-SGFParser can parse all SGF text which confirm to SGF standard.
+SimpleSGFParser can parse all SGF text which confirm to SGF standard.
 
 ## How to Use
 
@@ -26,6 +26,6 @@ If SGF string has only one GameTree, it is simple to use SGFParser#getSingleGame
 
 ```java
 GameTree tree = parser.getSingleGameTree();
-// equal to parser.getGameTree(0);
+// Equals to parser.getGameTree(0);
 ```
 
