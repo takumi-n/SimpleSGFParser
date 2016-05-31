@@ -1,6 +1,7 @@
 # SimpleSGFParser
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.takumi-n/simple-sgf-parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.takumi-n/simple-sgf-parser)
+
 This is an simple SGF(Smart Game Format) parser written in Java.
 SimpleSGFParser can parse all SGF text which confirm to SGF standard.
 
@@ -8,7 +9,11 @@ SimpleSGFParser can parse all SGF text which confirm to SGF standard.
 
 ### Maven
 ```xml
-
+<dependency>
+    <groupId>com.github.takumi-n</groupId>
+    <artifactId>simple-sgf-parser</artifactId>
+    <version>1.0</version>
+</dependency>
 ```
 
 **very simple**
