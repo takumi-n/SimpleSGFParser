@@ -2,7 +2,7 @@
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.takumi-n/simple-sgf-parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.takumi-n/simple-sgf-parser)
 [![Build Status](https://travis-ci.org/takumi-n/SimpleSGFParser.svg?branch=master)](https://travis-ci.org/takumi-n/SimpleSGFParser)
-[![Coverage Status](https://coveralls.io/repos/github/takumi-n/SimpleSGFParser/badge.svg?branch=master)](https://coveralls.io/github/takumi-n/SimpleSGFParser?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/takumi-n/SimpleSGFParser/badge.svg)](https://coveralls.io/github/takumi-n/SimpleSGFParser?branch=master)
 
 
 This is an simple SGF(Smart Game Format) parser written in Java.
