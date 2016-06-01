@@ -2,6 +2,8 @@
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.takumi-n/simple-sgf-parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.takumi-n/simple-sgf-parser)
 [![Build Status](https://travis-ci.org/takumi-n/SimpleSGFParser.svg?branch=master)](https://travis-ci.org/takumi-n/SimpleSGFParser)
+[![Coverage Status](https://coveralls.io/repos/github/takumi-n/SimpleSGFParser/badge.svg?branch=master)](https://coveralls.io/github/takumi-n/SimpleSGFParser?branch=master)
+
 
 This is an simple SGF(Smart Game Format) parser written in Java.
 SimpleSGFParser can parse all SGF text which confirm to SGF standard.
@@ -35,4 +37,3 @@ If SGF string has only one GameTree, it is simple to use SGFParser#getSingleGame
 GameTree tree = parser.getSingleGameTree();
 // Equals to parser.getGameTree(0);
 ```
-
