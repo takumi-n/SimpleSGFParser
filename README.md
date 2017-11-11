@@ -6,7 +6,7 @@
 
 
 This is an simple SGF(Smart Game Format) parser written in Java.
-SimpleSGFParser can parse all SGF text which confirm to SGF standard.
+SimpleSGFParser can parse all SGF text which confirms to SGF standard.
 
 ## How to Use
 
